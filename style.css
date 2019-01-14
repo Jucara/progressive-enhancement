@@ -1,0 +1,82 @@
+body {
+  font-family: Times, Times New Roman, serif;
+  font-size: large;
+  line-height: 2;
+  color :#2F4F4F;
+  width : 80%;
+  margin: 0 auto;
+  text-align: center;
+  background: -webkit-radial-gradient(rgb(228, 187, 13), rgb(230, 92, 9));
+  background: radial-gradient(rgb(228, 187, 13), rgb(230, 92, 9));
+  background-image: url(http://www.wallpapers-mania.org/images/Deco/fond-page-web-planches-noires-verticales.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+
+.villageois{
+  border-left: 3px solid olive;
+}
+.fermier{
+  border-left: 3px solid orange;
+}
+.bien{
+  text-transform: uppercase;
+  color: green;
+}
+.mal{
+  text-transform: uppercase;
+  color: red;
+}
+.poucebien{
+
+  background-image: url(https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-1.9/master/01-La-prairie/html-css/progressive-enhancement/bien.png?token=AsX3LKfDmx1brWyYkdDoCySibU6xkKJ7ks5cRcJAwA%3D%3D);
+  background-position: right;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding-right: 60px;
+  background-size: auto;
+  height: 3rem;
+
+
+
+}
+
+.poucemauvais{
+
+    background-image: url(https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-1.9/master/01-La-prairie/html-css/progressive-enhancement/mal.png?token=AsX3LJvKZIohLVvhKnzdZ4UQfWfg_UbWks5cRcUawA%3D%3D);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 60px;
+    background-size: auto;
+    height: 3rem;
+
+}
+tr:nth-child(odd){
+  background-color: gray;
+}
+tr:nth-child(even){
+  background-color: white;
+}
+header {
+  background-color: yellow;
+}
+
+
+blockquote {
+  margin: 0 auto;
+  width: 300px;
+  font-size: 160%;
+  font-style: italic;
+  background-color: #DCDCDC;
+  border-left: 3px solid #B22222 ;
+  padding-left: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+q{
+  font-style: italic;
+}
+a:visited{color :red;}
+a:hover{color : green ;}
